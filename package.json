@@ -6,6 +6,7 @@
   "scripts": {
     "setup": "yarn global add netlify-cli && netlify login && netlify link",
     "postinstall": "cd functions && yarn install",
-    "dev": "netlify dev"
+    "dev": "netlify dev",
+    "build": "echo buildCommand"
   }
 }
