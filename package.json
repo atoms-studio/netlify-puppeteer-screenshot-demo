@@ -1,0 +1,11 @@
+{
+  "name": "netlify-puppeteer-screenshot-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/atoms-studio/netlify-puppeteer-screenshot-demo.git",
+  "scripts": {
+    "setup": "yarn global add netlify-cli && netlify login && netlify link",
+    "postinstall": "cd functions && yarn install",
+    "dev": "netlify dev"
+  }
+}

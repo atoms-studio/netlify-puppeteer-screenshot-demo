@@ -2,7 +2,7 @@ const chromium = require('chrome-aws-lambda');
 
 exports.handler = async (event, context) => {
 
-    const pageToScreenshot = JSON.parse(event.body).pageToScreenshot;
+    const pageToScreenshot = "https://netlify.com/";
 
     if (!pageToScreenshot) return {
         statusCode: 400,
